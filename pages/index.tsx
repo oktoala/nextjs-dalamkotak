@@ -3,8 +3,6 @@ import Link from 'next/link';
 
 import Container from '../components/Container';
 import BlogPostCard from '../components/BlogPostCard';
-import Subscribe from '../components/Subscribe';
-import VideoCard from '../components/VideoCard';
 
 export default function Home({ videos }) {
   return (
@@ -18,7 +16,7 @@ export default function Home({ videos }) {
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
               By <span className="font-bold">Oktavian Yoga Syahputra </span>
               <div>
-                Web Deve
+                Software Deve
                 <span className="text-red-500 font-semibold">lover</span> 💙
               </div>
             </h2>
